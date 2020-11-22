@@ -1,3 +1,5 @@
+import java.util.Random;
+
 import static java.lang.Character.isLowerCase;
 import static java.lang.Character.isUpperCase;
 
@@ -6,14 +8,9 @@ public class Encrypt {
    private String words;
 
     public Encrypt() {
-        this.key = 0;
+        Random random = new Random();
+        this.key = random.nextInt(24) + 1;
         this.words = "";
-    }
-    public void addKey(int key) {
-        while (key > 25) {
-            key -= 26;
-        }
-        this.key = key;
     }
 
     public void addWords(String words) {

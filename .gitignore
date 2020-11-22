@@ -1,0 +1,7 @@
+# ignore the out
+/home/listya/Documents/Belajar/JAVA/personalProject/CaesarJavafx/out/
+
+# ignore iml
+*.iml
+
+
