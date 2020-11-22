@@ -1,3 +1,5 @@
+package Main;
+
 import java.util.Random;
 
 import static java.lang.Character.isLowerCase;
