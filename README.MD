@@ -12,6 +12,7 @@ a + 2 = c.
 it will only encrypt alphabets.
 
 Example of GUI:
+<br>
 ![caesar](caesar.png)
 
 <h3>Future Development</h3>
